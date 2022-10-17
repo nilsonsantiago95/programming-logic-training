@@ -1,0 +1,14 @@
+{
+  "name": "treino-de-logica-de-programacao",
+  "version": "1.0.0",
+  "description": "Meu treino de lógica de programação",
+  "main": "circleArea.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nilson Santiago",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
