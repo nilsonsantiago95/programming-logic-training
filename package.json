@@ -5,7 +5,7 @@
   "main": "circleArea.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ageInDays.js"
+    "dev": "nodemon selectionTest1.js"
   },
   "author": "Nilson Santiago",
   "license": "ISC",
