@@ -12,7 +12,7 @@ const bhaskara = (a, b, c) => {
     }
 }
 
-let values =[]
+let values = []
 
 for(let i=1; i <= 3; i++) {
     values.push(Number.parseFloat(readline.question(`Informe o ${i}° valor: `)))
