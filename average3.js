@@ -16,7 +16,6 @@ function showSituation(average) {
         console.log("Aluno em exame.")
         let newGrade = Number.parseFloat(readline.question("Informe a nota do exame: "))
         let result = (newGrade + average) / 2
-        console.log(result)
         return `Nota do exame: ${newGrade.toFixed(1)}.\n${result>=5.0 ? "Aluno aprovado!":"Aluno Reprovado!"}.\nMédia final: ${result.toFixed(1)}`
     }
 }
