@@ -2,9 +2,9 @@ const readline = require('readline-sync')
 
 let value = []
 
-// for(let c = 0; c < 6; c++) {
-//     value.push(Number.parseInt(readline.question("Informe um valor positivo ou negativo: ")))
-// }
+for(let c = 0; c < 6; c++) {
+    value.push(Number.parseInt(readline.question("Informe um valor positivo ou negativo: ")))
+}
 
 let quantityPositiveNumbers = value.reduce((acc, number) => {
     if(number > 0) {
@@ -13,7 +13,4 @@ let quantityPositiveNumbers = value.reduce((acc, number) => {
     return acc
 }, 0)
 
-// console.log(`${quantityPositiveNumbers} valores positivos`)
-
-let teste = readline.question("Informe um valor positivo ou negativo: ")
-console.log(teste)
+console.log(`${quantityPositiveNumbers} valores positivos`)
